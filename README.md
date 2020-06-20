@@ -1,3 +1,63 @@
+1. Import as maven project
+
+2. mysql should be on machine
+
+
+3. Postman Request for crud ---
+Company request :
+
+{
+	"name":"companyxyz",
+	"registrationNumber":"12345",
+	"phoneNumber": {
+		"areaCode":"testareacode",
+		"number":"123456"
+	},
+	"supplier": {
+		"taxNumber":"12345",
+		"orderLeadTimeInDays":"234"
+	},
+	"customer": {
+		"name":"test",
+		"lastOrderDate" :"6jun"
+	}
+	
+}
+
+Person Request
+{
+	"firstName":"ram",
+	"lastName":"shyam",
+	"phoneNumber": {
+		"areaCode":"testareacode",
+		"number":"123456"
+	},
+	"supplier": {
+		"taxNumber":"12345",
+		"orderLeadTimeInDays":"234"
+	},
+	"customer": {
+		"name":"test",
+		"lastOrderDate" :"6jun"
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started
 
 ### Reference Documentation
